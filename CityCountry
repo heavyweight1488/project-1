@@ -1,0 +1,32 @@
+city = 'Minsk'
+country = 'Belarus'
+
+if country == 'Thailand':
+    print('Hello Thailand')
+    if city == 'thai 1':
+        print('thai 1')
+    else:
+        print('other t')
+elif  country == 'Japan':
+    print('Hello Japan')  
+    if city =='j 1':
+        print('j1')
+    else:
+        print('other j')
+elif country == 'Belarus':
+    print('Hello Belarus') 
+    if city == 'B1':
+        print('Hello B1')   
+    elif city == 'Minsk':
+        print('finish')
+    else:
+        print ('OTHER CITIES')  
+else:
+    print('i dont know')        
+ 
+    
+                
+     
+             
+  
+        

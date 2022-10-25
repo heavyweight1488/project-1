@@ -1,0 +1,11 @@
+def humanAge(age):
+    if age == 18:
+        return(" i am 18 years old!")
+    elif age == 25:
+        return("you can drink alcohol!")
+    elif age == 35:
+        return("it's time for you to have kids!")
+    else:
+        return("you are under 18")
+    
+print(humanAge(17))

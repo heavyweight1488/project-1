@@ -1,0 +1,56 @@
+myFavoriteMusicians = ["kizaru", "morgenshtern", "basta", "pasha tehnique"]
+print('task1:' + str (myFavoriteMusicians))
+
+
+
+listOfPlace = []
+
+minsk = (54.5359, 27.3400)
+grodno = (53.40, 23.49)
+osipovichi = (53.18, 28.39)
+gomel = (52.260, 31.0000)
+vilnius = (25.16788, 54.4121)
+belostok = (53756.96, 23.10783)
+antwerpen = (51.2199, 4.40346)
+
+listOfPlace.append(minsk)
+listOfPlace.append(grodno)
+listOfPlace.append(osipovichi)
+listOfPlace.append(gomel)
+listOfPlace.append(vilnius)
+listOfPlace.append(belostok)
+listOfPlace.append(antwerpen)
+
+print('task2:' + str (listOfPlace))
+
+
+myData = {"growth": (190),
+         "favorite color":["black"],
+         "favorite actor":["Tom Hurdy","Tom Cruz", "Leonardo Di Caprio"],
+         "my parents":("alexander","olga"),
+         "my weight":[87],
+         "data":{"place of residence": "Slonim", "country": "Belsrus",
+                 "address": "lane Voosoedinena house 32"}}
+print('task3:' + str (myData))
+
+question1 = input("task 4: укажите вес,любимый цвет или актер:")
+
+print('task4:' + str (myData[question1]))
+
+
+
+
+sonsongMusicians = {"kizaru": "99 problems",
+                    "mayot":"лилия",
+                    "yanix": " на груди на запястье"}
+print('task5:' + str (sonsongMusicians))
+
+
+
+listChocolate = ["alpen gold", "milka", "spartak"]
+chocolate = input("введите название шоколадки:")
+if chocolate in listChocolate:
+    print("такая шкоколадка уже есть.")
+elif chocolate not in listChocolate:
+    listChocolate.append(chocolate)
+    print(listChocolate)
