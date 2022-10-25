@@ -1,0 +1,11 @@
+Age = 24
+if Age < 23 :
+    print('мне меньше') 
+elif Age == 23 :
+    print('мне равно') 
+elif Age > 23:
+    print('мне больше')     
+
+else:
+    print('в душе не ебу')
+    

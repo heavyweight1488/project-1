@@ -1,0 +1,69 @@
+string = "Чехов"
+print(string[0])
+print(string[1])
+print(string[2])
+print(string[3])
+print(string[4])
+
+a = input("что вы вчера писали :")
+b = input("куда вы вчера ходили:")
+c = """вчера я написал первый {}, вчера я ходил в {}.""".format(a,b)
+
+print('task2:' + str (c))
+
+
+method = "олдос хаксли родился в 1894 году.".capitalize()
+
+print('task3:' + str (method))
+
+
+question = "Где это? Кто это? Когда это?".split(" ? ")
+print('task4:' + str (question))
+
+
+list = ["Рыжая", "лиса", "перепрыгнула", "через", "низкий", "забор", "."]
+list1 = " ".join(list)
+
+print('task5:' + str (list1))
+
+
+replacement = "Ребенок - зеркало поступков родителей."
+
+print('task6:' + str (replacement.replace("о","0")))
+
+
+methodIndex = "Хемингуэй"
+
+print('task7:' + str (methodIndex.index("м")))
+
+
+dialog = """ -'Приходи после уроков в актовый зал'.
+-'зачем?'
+- 'Будет интересно!'
+- 'Приду!'. """
+
+one = "".join(dialog)
+
+print('task8:' + str (one))
+
+
+
+print('task9:' "три"+"три"+"три")
+print("три"*3)
+
+stringSlice = "И зачем так орать! Я и в первый раз прекрасно слышал."
+print('task10:'+ str (stringSlice[0:17]))
+
+
+
+
+
+
+
+
+
+
+
+
+
+

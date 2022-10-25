@@ -1,0 +1,112 @@
+author = "кафка"
+author[0]
+author[1]
+author[2]
+author[3]
+author[4]
+print(author[0])
+print(author[1])
+print(author[2])
+print(author[3])
+print(author[4])
+
+
+ff = "ф. фицджеральд"
+ff = "ф. скотт фицджеральд"
+print(ff)
+
+
+a = "кот" + "в" + "шляпе"
+print(a)
+
+b = "soyer" * 3
+print(b)
+
+c = "истина где-то рядом...".upper()
+print(c)
+
+d = "ИСТИНА ГДЕ-ТО РЯДОМ...".lower()
+print(d)
+
+
+e = "троглодиты...".capitalize()
+print(e)
+
+
+f = "уиляьям {}".format("фолкнер")
+print(f)
+
+last = "folkner"
+g = "uiliam{}".format(last)
+print(g)
+
+
+author = "uiliam folkner"
+yearBorn = "1897"
+h = "{} родился в {}.".format(author,yearBorn)
+print(h)
+
+
+n1 = input('введите существительное:')
+v = input('введите глагол:')
+adj = input('введите прилагательное:')
+n2 = input('введите существительное:')
+r = """как обычно, {} {} {} """.format(n1,v,adj,n2)
+print(r)
+
+
+j = "я прыгнул через голову. это целых два метра !".split(".")
+print(j)
+
+
+firstThree = "aбв"
+result = "+".join(firstThree)
+print(result)
+
+
+words = ["рыжая", "лисица", "сделала", "кувырок", "через", "голову", "."]
+one = " ".join(words)
+print(one)
+
+s = "     москва      "
+print(s.strip())
+
+
+equ = "все животные одинаковы"
+print(equ.replace("о", "@"))
+
+v = "животные".index("ж")
+print(v)
+try:
+    "животные".index("з")
+except:
+    print("не обнаружено")
+    
+    
+o = "кот" in "кот в шляпе"
+print(o)
+
+print("мышь" in "кот в шляпе")
+
+print("поттер" not in "гарри")
+
+print("она сказала \"непременно\"")
+print("она сказала 'непременно' ")
+
+print("str1\nstr2\nstr3")
+
+fict = ["толстой",
+        "дик",
+        "оруэлл",
+        "пелевин",
+        "остин"]
+print(fict[0:1])
+
+ivan = """петр иванович успокоился и с интересом стал
+расспрашивать подробности о кончине ивана ильича."""
+
+print(ivan[0:24])
+print(ivan[0:26])
+print(ivan[24:93])
+    
+    

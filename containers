@@ -1,0 +1,137 @@
+random =[]
+random.append(True)
+random.append(100)
+random.append(1.1)
+random.append("привет")
+print(random)
+
+
+fruit = ["яблоко", "апельсин", "персик"]
+print (fruit[0])
+print (fruit[1])
+print (fruit[2])
+
+colors1 = ["синий", "зеленый", "желтый"]
+colors2 =["оранжевый", "розовый", "черный"]
+print(colors1 + colors2)
+
+colors =["синий", "зеленый", "желтый"]
+print("зеленый" in colors)
+print(len(colors[0]))
+
+
+colors = ["фиолетовый", "оранжевый", "зеленый"]
+guess = str (input("угадай цвет:"))
+if guess in colors:
+    print("вы угадали!")
+else:
+    print("неправильно! попробуй еще.")
+    
+    
+my_tuple = tuple ()
+print(my_tuple)
+
+rndm = ("м.джексон", 1958, True)
+print(rndm)
+
+
+dys = ("1984","о дивный мир", "451 градус по фаренгейту",)
+print(dys[1])
+
+
+dys = ("1984", "о дивный мир", "451 градус по фаренгейту")
+print("1984" in dys)
+
+colors = ["blue", "green", "yeloww"]
+print(colors)
+item = colors.pop()
+print(item)
+print(colors)
+
+colors = ["blue", "green", "yeloww"]
+print("green" not in colors)
+print(len(colors[2]))
+
+print(("self taught",))
+
+
+fruits = {"яблоко":"красное", "банан":"желтый"}
+print(fruits)
+
+
+facts = dict()
+# add value
+facts["код"] = "смешной"
+# look up a key
+print(facts["код"])
+
+# add value
+facts["билл"] = "гейтс"
+# look up a key
+print(facts["билл"])
+
+# add value 
+facts["основание"] = 1776
+# look up a key
+print(facts["основание"])
+
+
+bill = dict({"билл гейтс": "щедрый"})
+print("билл гейтс" not in bill)
+
+
+books = {"дракула": "стокер", "1984":"оруэлл", "процесс": "кафка"}
+del books["процесс"]
+print(books)
+
+
+rhymes = {"1":"смех", "2": "синий", "3":"я", "4":"этаж", "5":"жизнь"}
+n = input('введите число:')
+if n in rhymes:
+    rhyme = rhymes[n]
+    print(rhyme)
+else:
+    print("не найдено.")
+    
+    
+lists = []
+rap = ["баста", "кравц", "злой дух", "25-17"]
+rock = ["наутилус помпилиус", "кино", "ария"]
+djs = ["paul oakenfold", "tiesto"]
+lists.append(rap)
+lists.append(rock)
+lists.append(djs)
+print(lists)
+rap = lists[0]
+print(rap)
+rap = lists[0]
+rap.append("наше дело")
+print(rap)
+print(lists)
+
+locations = []
+tula = (54.1960, 37.6182)
+moscow = (55.7522, 37.6155)
+
+locations.append(tula)
+locations.append(moscow)
+print(locations)
+
+eights = ["эдгар алан по", "чарльз диккенс"]
+nines = ["хемигуэй", "фицджеральд", "оруэлл"]
+
+authors = (eights, nines)
+print(authors)
+
+bday = {"хэмингуэй": "21.07.1899", "фицджеральд": "24.09.1896"}
+myLists = [bday]
+print(myLists)
+myTuple = (bday,)
+print(myTuple)
+
+
+ru = {"расположение": (55.7522, 37.6155), "знаменитости":["андрей звягинцев", "юрий быков", "петр буслов"], "факты": {"город": "москва","страна": "россия"}}
+print(ru)
+
+    
+             

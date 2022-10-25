@@ -1,0 +1,11 @@
+
+
+
+def autoSpeed(speed):
+     
+    if speed > 100:
+        return ("YouExceed")
+    else:
+        return ("YouDontRaise")
+    
+print(autoSpeed(102))
