@@ -1,0 +1,48 @@
+films = ["Клан Сопрано", "Ходячие мертвецы", "Красавцы",
+         "Дневники вампира"]
+for film1 in films:
+    print('task1:' + str (film1))
+    
+
+for i in range(25,50):
+    print('task2:' + str (i))
+    
+
+films = ["Клан Сопрано", "Ходячие мертвецы", "Красавцы",
+         "Дневники вампира"]
+for index, film in enumerate(films):
+    print('task3: ' + str(index) + " : " + film + ".")
+    
+
+    
+numbers = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"]
+qs = "task4 : угадайте число:"
+n = 0
+while True:
+    print("task 4 : введи x для выхода:")
+    a = input(qs)
+    if a == numbers[n]:
+        print("вы угадали!")
+    elif a == "x":
+        break
+    n = (n + 1) % 12
+    
+
+list1 = [8, 9, 148, 4 ]
+list2 = [9, 1, 33, 83]
+finalList = [] 
+n = 0
+for i in list1:
+    for j in list2:
+        finalList.append(i*j)
+        
+print('task5 : ' + str(finalList))
+    
+    
+    
+list1 = [8, 9, 148, 4 ]
+list2 = [9, 1, 33, 83]
+sdf = []
+for i in range(0, len(list1)):
+    sdf.append(list1[i] * list2[i])
+print('task6 : ' + str (sdf))
