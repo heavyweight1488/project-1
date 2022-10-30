@@ -36,7 +36,7 @@ for i in list1:
     for j in list2:
         finalList.append(i*j)
         
-print('task5 : ' + str(finalList))
+
     
     
     
@@ -45,4 +45,5 @@ list2 = [9, 1, 33, 83]
 sdf = []
 for i in range(0, len(list1)):
     sdf.append(list1[i] * list2[i])
-print('task6 : ' + str (sdf))
+
+print('task7 : ' + str (finalList + sdf))
