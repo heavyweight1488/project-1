@@ -6,4 +6,4 @@ elif x <= 25:
 elif x > 25:    
     print('больше 25') 
         
-    
+from LessThen10 import x

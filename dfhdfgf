@@ -1,0 +1,11 @@
+
+
+
+
+
+list1 = [8, 9, 148, 4 ]
+list2 = [9, 1, 33, 83]
+sdf = []
+for i in range(0, len(list1)):
+    sdf.append(list1[i] * list2[i])
+print(sdf)

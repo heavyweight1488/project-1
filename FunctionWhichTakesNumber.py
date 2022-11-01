@@ -44,3 +44,14 @@ def conversion(string):
         
         
 print('task 5:' + str (conversion("30.50")))
+
+import modulenumber
+print(modulenumber.cubed(5))
+import modulenumber
+print(modulenumber.box(12))
+import modulenumber
+print(modulenumber.privet())
+from modulenumber import box
+print(box(12))
+from modulenumber import bonus
+print(bonus(4))

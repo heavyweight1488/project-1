@@ -1,0 +1,9 @@
+import os
+print(os.path.join("учебный процесс",
+             "project-1",
+             "calculator"))
+
+
+st = open ("st.txt", "w")
+st.write("hello from python!")
+st.close
