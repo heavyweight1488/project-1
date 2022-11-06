@@ -1,31 +1,11 @@
-def sum(x, y):
-     return x + y
-    
-def sub(x, y):
-     return x - y
-    
-def mult(x, y):
-      return x * y
-
-def div(x, y):
-    try:
-        return x / y
-    except(ZeroDivisionError):
-        print('на ноль делить нельзя')
-  
-
-def verificationOfOperations(x, y, operation):
-    if operation == '+':
-        return sum(x, y)
-    elif operation == '-':
-        return sub(x, y)
-    elif operation == '*':
-        return mult(x, y)
-    elif operation == '/':
-        return div(x, y)
-print(verificationOfOperations(100,3.2,'/'))
-    
-
-        
-    
-        
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+hi
+hi
+hi
+hi
