@@ -1,1 +1,1 @@
-hello pythin!
+& C:/Users/Vladp/AppData/Local/Programs/Python/Python310/python.exe "d:/учебный процесс/project-1/workshop9Files.py"
